@@ -205,5 +205,5 @@ Panel_C<-ggplot(PASS_DAT, aes(x=Rec_T, y=PASS_T,colour = GROUP, group=GROUP, na.
  
   Figure_3 <- arrangeGrob(Panel_A,Panel_B,Panel_C,ncol=3) #generates Figure_3
   ggsave(file="Figure_3.eps", Figure_3, width = 12, height = 9, dpi = 600) #saves Figure_3.eps
-  dev.off()
+dev.off()
   

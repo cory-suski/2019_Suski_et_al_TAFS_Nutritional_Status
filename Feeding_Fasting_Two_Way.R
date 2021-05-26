@@ -3,6 +3,7 @@ library(scales)
 library(lme4)
 library(lmtest)
 library(influence.ME)
+library(car)
 
 library(readr)
 Feed <- read_csv("Feed.csv", col_types = cols(PIT = col_character()))
