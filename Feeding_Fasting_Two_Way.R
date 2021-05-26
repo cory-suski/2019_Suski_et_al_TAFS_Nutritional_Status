@@ -3,9 +3,6 @@ library(scales)
 library(lme4)
 library(lmtest)
 library(influence.ME)
-library(car)
-
-# meaningless comment added when playing with Github
 
 library(readr)
 Feed <- read_csv("Feed.csv", col_types = cols(PIT = col_character()))
